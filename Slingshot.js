@@ -44,5 +44,10 @@ class SlingShot{
             pop();
         }
     }
+
+    respawn(obj){
+        this.sling.bodyA = obj;
+
+    }
     
 }
